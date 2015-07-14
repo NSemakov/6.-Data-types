@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Student.h"
+#import <UIKit/UIKit.h>
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,33 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSLog(@"lksj");
+    //1.
+    NSLog(@"%ld",GenderFemale);
+    NSLog(@"%ld, %ld",sizeof(int),sizeof(NSInteger));
+    Student* student=[Student new];
+    student.gender=GenderFemale;
+    NSLog(@"%ld",student.gender);
+    //---------
+    //end of 1.
+    
+    //2,3
+    CGRect rect=CGRectMake(0, 0, 10, 10);
+    CGRect rect3by3=CGRectInset(rect, 3.5f, 3.5f);
+    
+    NSString* str=NSStringFromCGRect(rect3by3);
+    NSLog(@"%@",str);
+
+    NSMutableArray* arrayOfPoints=[NSMutableArray array];
+    for (NSInteger i=0; i<100; i++) {
+        CGPoint point=CGPointMake(arc4random_uniform(10), arc4random_uniform(10));
+        if (CGRectContainsPoint(rect3by3, point)) {
+            [arrayOfPoints addObject:[NSValue valueWithCGPoint:point]];
+        }
+    }
+    NSLog(@"Random point in rect3by3: %@",arrayOfPoints);
+    
+    //---------
+    //end of 2,3
     return YES;
 }
 

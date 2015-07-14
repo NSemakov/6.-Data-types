@@ -14,6 +14,7 @@
 		844E0DFA1B5543FA0079D639 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844E0DF91B5543FA0079D639 /* Images.xcassets */; };
 		844E0DFD1B5543FA0079D639 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844E0DFB1B5543FA0079D639 /* LaunchScreen.xib */; };
 		844E0E091B5543FA0079D639 /* ___Data_typesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E0E081B5543FA0079D639 /* ___Data_typesTests.m */; };
+		844E0E141B5549A50079D639 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E0E131B5549A50079D639 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		844E0E021B5543FA0079D639 /* 6. Data typesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "6. Data typesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		844E0E071B5543FA0079D639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844E0E081B5543FA0079D639 /* ___Data_typesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Data_typesTests.m"; sourceTree = "<group>"; };
+		844E0E121B5549A50079D639 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		844E0E131B5549A50079D639 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 			children = (
 				844E0DF01B5543F90079D639 /* AppDelegate.h */,
 				844E0DF11B5543F90079D639 /* AppDelegate.m */,
+				844E0E121B5549A50079D639 /* Student.h */,
+				844E0E131B5549A50079D639 /* Student.m */,
 				844E0DF31B5543F90079D639 /* ViewController.h */,
 				844E0DF41B5543F90079D639 /* ViewController.m */,
 				844E0DF61B5543FA0079D639 /* Main.storyboard */,
@@ -222,6 +227,7 @@
 				844E0DF51B5543F90079D639 /* ViewController.m in Sources */,
 				844E0DF21B5543F90079D639 /* AppDelegate.m in Sources */,
 				844E0DEF1B5543F90079D639 /* main.m in Sources */,
+				844E0E141B5549A50079D639 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
